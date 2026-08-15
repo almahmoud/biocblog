@@ -33,7 +33,7 @@ rightly belongs in an R session. But some of it is *batch-shaped*: a
 well-defined analysis with file inputs, file outputs, and a handful -- or more -- of
 parameters. Differential expression, normalisation, peak calling, amplicon
 denoising, quantification import. None of these need a human in the loop
-once the parameters are chosen, and this project targets that subset.
+once the parameters are chosen, and this project targets that subset of analyses.
 
 Yet every workflow system that wants to offer one of these analyses today
 needs a **hand-written wrapper**: Galaxy, Nextflow, engines for CWL (Common
