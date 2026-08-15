@@ -10,6 +10,8 @@ author:
     url: https://github.com/almahmoud
   - name: Lindsay V. Clark
     url: https://github.com/lvclark
+  - name: Kevin C. Rue-Albrecht
+    url: https://github.com/kevinrue
 
 date: 2026-08-13
 creative_commons: CC BY
@@ -28,10 +30,10 @@ format:
 
 Much of what Bioconductor packages do is interactive and exploratory, and
 rightly belongs in an R session. But some of it is *batch-shaped*: a
-well-defined analysis with file inputs, file outputs, and a handful of
+well-defined analysis with file inputs, file outputs, and a handful -- or more -- of
 parameters. Differential expression, normalisation, peak calling, amplicon
 denoising, quantification import. None of these need a human in the loop
-once the parameters are chosen, and this project targets that subset.
+once the parameters are chosen, and this project targets that subset of analyses.
 
 Yet every workflow system that wants to offer one of these analyses today
 needs a **hand-written wrapper**: Galaxy, Nextflow, engines for CWL (Common
